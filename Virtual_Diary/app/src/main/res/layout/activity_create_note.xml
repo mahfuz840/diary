@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_create_note"
+    android:orientation="vertical"
+    tools:context="com.the_spartan.virtualdiary.activities.CreateNoteActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date: "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title: "
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/title_edit_text"
+            class="com.the_spartan.virtualdiary.objects_and_others.LinedEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+
+    <!--<EditText-->
+    <!--android:id="@+id/content_edit_text"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:ems="10"-->
+    <!--android:gravity="top"-->
+    <!--android:paddingLeft="10dp"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:layout_marginRight="5dp"-->
+    <!--android:hint="Description"-->
+    <!--android:textColor="@android:color/black"-->
+    <!--android:background="@drawable/et_shadow"/>-->
+
+    <view xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/content_edit_text"
+        class="com.the_spartan.virtualdiary.objects_and_others.LinedEditText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:capitalize="sentences"
+        android:fadingEdge="vertical"
+        android:gravity="top"
+        android:hint="Description"
+        android:layout_marginLeft="10dp"
+        android:scrollbars="vertical"
+        android:textColor="@android:color/black" />
+</LinearLayout>

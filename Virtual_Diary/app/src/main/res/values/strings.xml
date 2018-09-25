@@ -1,0 +1,24 @@
+<resources>
+    <string name="font"></string>
+    <string name="app_name">Virtual Diary</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="about_for_kabita">Development is still going on...!</string>
+
+    <string name="select_date">Select Date: </string>
+    <string name="delete_dialog_title">Do you really want to delete this note?</string>
+    <string name="delete_dialog_message">This action cannot be undone</string>
+    <string name="delete_dialog_positive_button">DELETE</string>
+    <string name="delete_dialog_negative_button">CANCEL</string>
+    <string name="font_size"></string>
+
+    <string name="settings_title">Settings</string>
+    <string name="font_color_settings_title">Font Color</string>
+
+    <string name="notification_switch_value"></string>
+
+    <string name="notification_intro">It is really easy to forget about writing notes.
+    Let us remind you by sending notifications!</string>
+    <string name="notification_delay_value"></string>
+
+</resources>

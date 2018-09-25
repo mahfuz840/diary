@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="font_size_array">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Extra Large</item>
+    </string-array>
+    <string-array name="font_size_values">
+        <item>16sp</item>
+        <item>18sp</item>
+        <item>20sp</item>
+        <item>22sp</item>
+    </string-array>
+
+
+    <string-array name="months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="font_names">
+        <item>Default</item>
+        <item>Alanis Hand</item>
+        <item>Angel Tears</item>
+        <item>Attack of the Cucumber</item>
+        <item>Glamour Girl</item>
+        <item>Journal</item>
+        <item>Lady Like</item>
+    </string-array>
+
+    <string-array name="font_values">
+        <item>null</item>
+        <item>fonts/alanis_hand.ttf</item>
+        <item>fonts/angel_tears.ttf</item>
+        <item>fonts/attack_of_the_cucumber.ttf</item>
+        <item>fonts/glamour_girl.ttf</item>
+        <item>fonts/journal.ttf</item>
+        <item>fonts/lady_like.ttf</item>
+    </string-array>
+
+    <string-array name="year_array">
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+    </string-array>
+    
+    <string-array name="notification_delay_array">
+        <item>1 Day</item>
+        <item>2 Days</item>
+        <item>3 Days</item>
+        <item>4 Days</item>
+        <item>5 Days</item>
+        <item>7 Days</item>
+        <item>10 Days</item>
+        <item>14 Days</item>
+        <item>21 Days</item>
+    </string-array>
+
+    <string-array name="notification_delay_array_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+        <item>10</item>
+        <item>14</item>
+        <item>21</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.the_spartan.virtualdiary">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.CreateNoteActivity" />
+
+        <provider
+            android:name=".data.NoteProvider"
+            android:authorities="com.the_spartan.virtualdiary"
+            android:exported="false" />
+
+        <activity android:name=".activities.AboutActivity" />
+        <activity
+            android:name=".settings_activities.FontStyleActivity"
+            android:theme="@style/MyPreferenceTheme" />
+
+        <service android:name=".service.NotificationService" />
+
+        <activity android:name=".settings_activities.FontColorActivity" />
+        <activity android:name=".activities.SearchActivity" />
+        <activity
+            android:name=".settings_activities.NotificationActivity"
+            android:theme="@style/MyPreferenceTheme" />
+        <activity android:name=".activities.SendingNotificationActivity"
+            android:theme="@android:style/Theme.NoDisplay"></activity>
+    </application>
+
+</manifest>
