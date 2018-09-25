@@ -1,2 +1,1 @@
-# Flappy Ball
 # Virtual Diary
